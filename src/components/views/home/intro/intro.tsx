@@ -34,21 +34,24 @@ export const Intro = () => {
               to={'blue'}
               className={'[&>span]:w-[unset]'}
             >
-              Hirad Arshadi
+              Hamed Akbari
             </Heading>
           </Heading>
           <WavingHello />
         </TitlesContainer>
+
         <IntroParagraph>
-          Passionate and creative full-stack software engineer & indie-hacker
-          based in{' '}
+          Passionate and creative front-end developer based in{' '}
           <Link
-            title={'Vancouver on Google Maps'}
-            href={'https://goo.gl/maps/jBVpJRmkjWSK4qwq7'}
+            title={'Iran on Google Maps'}
+            href={
+              'https://www.google.com/maps/place/Tehran,+Tehran+Province,+Iran/@35.7074614,51.1828499,11z/data=!3m1!4b1!4m6!3m5!1s0x3f8e00491ff3dcd9:0xf0b3697c567024bc!8m2!3d35.7218583!4d51.3346954!16zL20vMGZ0bHg?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D'
+            }
           >
-            Vancouver, Canada 🇨🇦
+            Tehran,Iran
           </Link>
         </IntroParagraph>
+
         <div className={'flex items-center gap-16 flex-wrap'}>
           <ButtonLink title={'About page'} href={'/about'}>
             <Icon path={mdiAccountCircleOutline} size={1} />
@@ -66,10 +69,11 @@ export const Intro = () => {
           </div>
         </div>
       </TextsContainer>
+
       <PhotoContainer>
         <Photo
-          src={'/static/images/hirad/hirad.jpg'}
-          alt={"Hirad's Photo"}
+          src={'/static/images/hamed/hamed-2.jpg'}
+          alt={"Hamed's Photo"}
           size={168}
           priority
         />

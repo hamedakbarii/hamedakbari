@@ -52,9 +52,10 @@ export const Projects = async (props: ProjectsProps) => {
         >
           {!full ? 'Featured ' : ''}Projects
         </Heading>
+
         <ProjectsButtons>
           <ButtonLink
-            title={"Hirad's resume pdf file"}
+            title={"Hamed's resume pdf file"}
             href={'/resume'}
             openInNewTab
             outlined
@@ -62,6 +63,7 @@ export const Projects = async (props: ProjectsProps) => {
             <Icon path={mdiFileCodeOutline} size={0.9} />
             Resume
           </ButtonLink>
+
           {!full && (
             <ButtonLink title={'View all projects by Jahir'} href={'/projects'}>
               <Icon path={mdiEyeOutline} size={0.9} />

@@ -4,8 +4,7 @@ import { buildOgImageUrl } from './og';
 
 type MetaImageStyle = 'summary_large_image' | 'summary';
 
-const defaultLogoImage =
-  'https://hiradary.me/static/images/brand/logo-full-me.png';
+const defaultLogoImage = ' ';
 
 export const getStaticMetadata = (data: {
   title: string;

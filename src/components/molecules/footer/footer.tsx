@@ -18,8 +18,8 @@ const primaryLinks: Array<FooterLinkProps> = [
     underlineColor: 'blue',
   },
   {
-    title: 'Newsletter',
-    href: 'https://hiradary.beehiiv.com',
+    title: '',
+    href: '',
     className: 'from-gradient-red to-gradient-purple',
     underlineColor: 'red',
     openInNewTab: true,
@@ -28,8 +28,8 @@ const primaryLinks: Array<FooterLinkProps> = [
 
 const secondaryLinks: Array<FooterLinkProps> = [
   {
-    title: 'Donate',
-    href: 'https://buymeacoffee.com/hiradary',
+    title: '',
+    href: 'https://buymeacoffee.com/',
     className: 'from-gradient-brand to-gradient-blue',
     openInNewTab: true,
     underlineColor: 'brand',
@@ -39,7 +39,7 @@ const secondaryLinks: Array<FooterLinkProps> = [
 const metaLinks: Array<FooterLinkProps> = [
   {
     title: 'Source',
-    href: 'https://github.com/hiradary/hiradary.me',
+    href: 'https://github.com/hamedakbarii/hamedakbari',
     className: 'from-gradient-brand to-gradient-blue',
     underlineColor: 'brand',
     a11yTitle: 'View source code on GitHub',
@@ -50,14 +50,16 @@ const metaLinks: Array<FooterLinkProps> = [
 export const Footer = () => {
   return (
     <StyledFooter>
-      <LinksContainer>
+      {/* <LinksContainer>
         <FooterLinksList title={'Primary pages links'} links={primaryLinks} />
+
         <FooterLinksList
           title={'Secondary pages links'}
           links={secondaryLinks}
         />
         <FooterLinksList meta title={'Meta pages links'} links={metaLinks} />
-      </LinksContainer>
+      </LinksContainer> */}
+
       <InnerFooter>
         <BrandLink
           href={'/'}
@@ -65,7 +67,7 @@ export const Footer = () => {
           className={'hocus:decoration-gradient-brand group/link group/animoji'}
         >
           🎧
-          <BrandLinkSpan>Hirad Arshadi</BrandLinkSpan>
+          <BrandLinkSpan>Hamed Akbari</BrandLinkSpan>
         </BrandLink>
         <SocialLinks withBackToTop />
       </InnerFooter>

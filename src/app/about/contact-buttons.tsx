@@ -29,8 +29,8 @@ export default function ContactButtons() {
   return (
     <div className={'flex flex-wrap items-center gap-16'}>
       <ButtonLink
-        title={'Compose an email to Hirad'}
-        href={'mailto:hey@hiradary.me?subject=Hi%Hirad!'}
+        title={'Compose an email to Hamed'}
+        href={'mailto:hamedakbariwork@gmail.com?subject=Hi%Hamed!'}
         outlined
         className={emailButtonClasses}
       >
@@ -38,24 +38,15 @@ export default function ContactButtons() {
         <span>Email</span>
       </ButtonLink>
       <ButtonLink
-        title={'Compose a Twitter direct message for Hirad'}
-        href={'https://twitter.com/hiradary'}
+        title={'Compose a X direct message for Hamed'}
+        href={'https://x.com/hamedakbrii'}
         openInNewTab
         outlined
         className={twitterButtonClasses}
       >
         <Icon path={twitterOutline} size={0.9} />
-        <span>Twitter</span>
+        <span>X</span>
       </ButtonLink>
-      {/* <ButtonLink
-        title={"Hirad's Telegram profile"}
-        href={'https://hiradary.me/tlgrm'}
-        outlined
-        className={telegramButtonClasses}
-      >
-        <Icon path={telegram} size={0.85} />
-        <span>Telegram</span>
-      </ButtonLink> */}
     </div>
   );
 }

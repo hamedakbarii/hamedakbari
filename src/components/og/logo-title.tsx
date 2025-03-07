@@ -14,7 +14,6 @@ export type PathName = keyof typeof pathEmojiMap | null;
 const pathTitleMap = {
   '404': 'Page not found',
   about: 'About',
-  donate: 'Donate',
   projects: 'Projects',
   uses: 'Uses',
   blog: 'Blog',
@@ -59,7 +58,7 @@ export const PageTitle = (props: {
             }),
       }}
     >
-      {title || pathTitle || 'Hirad Arshadi'}
+      {title || pathTitle || 'Hamed Akbari'}
     </p>
   );
 };

@@ -28,20 +28,19 @@ const manrope = Manrope({
 
 export const metadata = {
   ...getStaticMetadata({
-    title: 'Hirad Arshadi – Software Engineer',
+    title: 'Hamed Akbari – front-end developer',
     description:
       // eslint-disable-next-line max-len
       "I'm a passionate and creative software engineer based in Canada 🇨🇦. Visit my website to learn more about me and my projects",
     keywords: [
-      'hirad arshadi',
-      'hirad',
-      'arshadi',
-      'hiradarshadi',
+      'hamed akbari',
+      'hamed',
+      'akbari',
+      'hamedakbari',
       'open-source',
-      'full-stack',
-      'software engineer',
-      'software engineering',
-      'canada',
+      'front-end',
+      'Front End',
+      'front-end developer',
       'iran',
       'bio',
       'developer',
@@ -62,6 +61,7 @@ export default function RootLayout(props: PropsWithChildren) {
       <head>
         <Meta />
       </head>
+
       <body className={'tablet-sm:overflow-y-auto'}>
         <Providers>
           <Toolbar />

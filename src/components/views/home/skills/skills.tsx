@@ -15,6 +15,7 @@ export const Skills = () => {
       <Heading $as={'h3'} shadow={'blue'} from={'blue'} to={'green'}>
         Skills
       </Heading>
+
       <ChipGroup className={'pb-4'}>
         {skills
           .filter((skill) => !skill.hide)

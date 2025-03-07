@@ -1,6 +1,6 @@
 import { allBlogs as generatedBlogs, type Blog } from 'contentlayer/generated';
 
-const hiddenBlogs = ['about', 'donate', 'uses'];
+const hiddenBlogs = ['about', 'uses'];
 
 export const allReadableBlogs = generatedBlogs.filter(
   (it) => !hiddenBlogs.includes(it.slug),

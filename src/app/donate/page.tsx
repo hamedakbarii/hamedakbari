@@ -27,11 +27,11 @@ export default async function DonatePage() {
 }
 
 export const metadata = getStaticMetadata({
-  title: 'Donate – Hirad Arshadi',
+  title: 'Donate – Hamed Akbari',
   description:
     // eslint-disable-next-line max-len
-    'Support Hirad Arshadi. Donate or sponsor him as a recognition for his work on different projects.',
-  exactUrl: 'https://hiradary.me/donate',
+    'Support Hamed Akbari,. Donate or sponsor him as a recognition for his work on different projects.',
+  exactUrl: '',
   keywords: [
     'donate',
     'support',
