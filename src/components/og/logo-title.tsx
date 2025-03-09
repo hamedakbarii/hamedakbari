@@ -18,6 +18,7 @@ const pathTitleMap = {
   uses: 'Uses',
   blog: 'Blog',
   error: 'Error',
+  donate: '',
 };
 
 const titleFontSize = 72;
